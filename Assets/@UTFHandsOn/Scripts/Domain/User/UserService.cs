@@ -1,6 +1,6 @@
-namespace Denity.UnityTestSample.Domain.User
+namespace Denity.UTFHandsOn.Domain.User
 {
-    public sealed class UserService
+    public sealed class UserService : IUserService
     {
     }
 }
