@@ -50,7 +50,7 @@ namespace Denity.UTFHandsOn.Test
             var inputField = Object.FindObjectOfType<InputField>();
             inputField.text = "samplename";
 
-            yield return AssertLabel("InputField_EnterName/Text", "sampename");
+            yield return AssertLabel("InputField_EnterName/Text", "samplename");
 
             userNameView.OnEnteredUserName += s => actual = s;
 
